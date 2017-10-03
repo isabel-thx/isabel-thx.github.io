@@ -1,0 +1,54 @@
+h1 {
+	color: #FF86B2;
+	font-family: "Montserrat",sans-serif;
+	font-style: bold;
+	text-shadow: 2px 3.464px 2px rgba(0,0,0,.25);
+
+	background: linear-gradient(black, #A09AFF);
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+
+}
+
+h2 {
+	color: #666772;
+	font-family: "Avenir Next",sans-serif;
+	font-style: bold;
+
+	text-align: center;
+}
+
+img {
+    /*border: 1px solid #ddd;
+    border-radius: 4px;*/
+    padding: 5px;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+body {
+	background-color: #000019;
+}
+
+p {
+	color: #666772;
+	font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	text-align: center;
+	text-shadow: .3px .3px .3px rgba(0,0,0,.25);
+}
+
+
+
+
+
+
+
+
