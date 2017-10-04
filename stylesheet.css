@@ -9,23 +9,22 @@ h1 {
     padding-right: 30px;
     padding-bottom: 60px;
     padding-left: 100px;
-
 }
 
 h2 {
 	color: #666772;
 	font-family: "Avenir Next",sans-serif;
 	font-style: bold;
-
 	text-align: center;
 }
 
 img {
-    /*border: 1px solid #ddd;
-    border-radius: 4px;*/
+    border: 1px solid #ddd;
+    border-radius: 4px;
     padding: 5px;
-    width: 150px;
+    width: 256px;
     display: block;
+    position: relative;
     margin: auto;
 }
 
@@ -36,6 +35,19 @@ img:hover {
 body {
 	background-color: #000019;
 }
+
+body, html {
+    height: 100%;
+	}
+    #image {
+    	height: 100%;
+        width: 100%;
+        background-size: 100%;
+    }
+    .wrap {
+        width: 256px;
+        height: 256px;
+    }
 
 p {
 	color: #666772;
